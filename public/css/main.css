@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* ------------------------------ MAIN STYLES FOR PAGES ------------------------------ */
+* { margin: 0; padding: 0; outline: 0; }
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    background: #2F3137;
+}
+
+/* SIMPLE STYLES */
+.q-bg-l { background: #2F3137; }
+.q-bg-d { background: #20232A; }
+.q-text-k { color: #43CD8E; }
+img { max-width: 100%; }
+.fs-my { font-size: 1.3em; }
+
+/* ------------------------------ MAIN ELEMENTS' STYLES ------------------------------ */
+.q-link { color: #43CD8E; text-decoration: none; transition: all 600ms ease; }
+.q-link:hover { color: #fff; transition: all 600ms ease; }
+
+.q-btn { border-radius: 4px; font-size: 1.2em; padding: 10px; text-decoration: none; border: none; transition: all 600ms ease; cursor: pointer; }
+.q-btn:hover { transition: all 600ms ease; transform: scale(1.02) translateY(-5px); box-shadow: 0 10px 20px -2px rgba(0, 0, 0, 0.3); }
+
+.q-btn-k { padding: 12px; color: #20232A; background: #43CD8E; }
+.q-btn-k:hover { color: #20232A; background: #fff; }
+.q-btn-s { padding: 12px; color: #20232A; background: #a4b3b6; }
+.q-btn-s:hover { background: #fff; }
+.q-btn-w { padding: 12px; color: #20232A; background: #fff; }
+
+.q-btn-ol-k { border: 2px solid #43CD8E; color: #43CD8E; background: rgba(255, 255, 255, 0); }
+.q-btn-ol-k:hover { background: #43CD8E; color: #20232A; }
+.q-btn-ol-w { border: 2px solid #fff; color: #fff; background: rgba(255, 255, 255, 0); }
+.q-btn-ol-w:hover { background: #fff; color: #20232A; }
+
+/* ------------------------------ BLOCKS' STYLES ------------------------------ */
+.top-menu { font-size: 1.1em; }
+
+.logo { width: 12em; margin-right: 20px; }
+.basket-amount { color: #43CD8E; }
+
+.cat-menu > ul { background: #2B2D32; border: 2px solid #20232A; }
+li { list-style: none; }
+
+.product { box-sizing: border-box; border: 2px solid silver; background: #20232A; }
+.product-image { transition: all 600ms ease; }
+.product-image:hover { transition: all 600ms ease; transform: scale(1.05); }
+
+.pagination-my { font-size: 2em; }
+
+.user-image { width: 150px; height: 150px; }
+
+.in-footer > .social > a > i { display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 50%; background: silver; margin-left: 5px; cursor: pointer; color: #333; transition: all 600ms ease; }
+.in-footer > .social > a > i:hover { transition: all 600ms ease; transform: translateY(-5px); }
+
+/* ------------------------------ COLOURS ------------------------------
+    block-bg : #20232A
+
+    button-color : #20232A
+    button-color >> hover : #fff
+    button-bg : #43CD8E
+
+    link-color : #43CD8E
+    link-color >> hover : #fff
+
+    body-bg : #2F3137
+    body-color : #fff
+
+    ADDITIONAL COLOURS:
+        1 : #a4b3b6 => strange
+        2 : #43CD8E => green (k)
+        3 : #373A41 - #33363C => grey colours
+*/

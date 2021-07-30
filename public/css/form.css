@@ -1,0 +1,6 @@
+.q-form { max-width: 600px; }
+.q-form input, .q-form textarea { width: 100%; background: #fcfcfc; color: #20232A; border: 2px solid #fcfcfc; border-radius: 5px; padding: 15px 20px; margin-top: 15px; font-size: 18px; }
+.q-form textarea { height: 200px; resize: none; }
+.q-form input:focus, .q-form textarea:focus { border: 2px solid #43CD8E; }
+.error { color: #ff5644; font-weight: 600; margin-top: 10px; margin-bottom: 10px; }
+.success { color: limegreen; font-weight: 600; margin-top: 10px; margin-bottom: 10px; }
